@@ -36,7 +36,7 @@ import { CarpoolListComponent } from './carpool-list/carpool-list.component';
     GoogleMapsModule,
     ReactiveFormsModule,
     AgmCoreModule.forRoot({
-      apiKey: "AIzaSyAqf_U-eCtA71Dc3TBPRCpfJ2Q1Lf4FgD4",
+      apiKey: "GOOGLE_MAPS_API_KEY",
       libraries: ["places"]
     }),
     FlashMessagesModule.forRoot(),
